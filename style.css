@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+
+label, input {
+    display: flex;
+    flex-direction: column;    
+}
+
+label {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input {
+    width: 15rem;
+    height: 1.5rem;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.right-container {
+    width: 100%;
+}
+
+.sidebar {
+    background: url("https://images.unsplash.com/photo-1561344640-2453889cde5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+.credit {
+    height: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.odin-logo {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    background: url('https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 25%;
+    height: 30%;
+}
+
+.text {
+    font-size: 5rem;
+    font-family: 'Orbitron', cursive;
+    color: rgba(255, 255, 255, 0.932);
+}
+
+.credit > p {
+    color: #00B4D8;
+}
+
+.top-section {
+    background-color: #6b717e54;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    background-color: #F1EDEE;
+    box-shadow: 5px 1px 3px #6B717E;
+}
+
+.form-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 100%;
+}
+
+
+.form-con {
+    padding-left: 25px;
+    display: flex;
+    gap: 25px;
+}
+
+.sign-up-h2 {
+    padding: 10px 0 0 25px;
+}
+
+.bottom {
+    height: 25%;
+    background-color: #6b717e54;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+    padding-left: 25px;
+}
+
+.create-account {
+    width: 7rem;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #F3E600;
+    font-size: 16px;
+    color: rgb(110, 102, 102);
+}
+
+a {
+    color: #F3E600;
+    text-decoration: none;
+}
+
+input[type="text"]:focus {
+    border-color: #04DAF6;
+    
+}
+
+/* .error,
+.error:focus {
+    border-color: red;
+    outline: 0;
+}
+ */
+
+input[type="password"]:focus {
+    outline: none;
+    border-color: #FF003C;
+}
+
